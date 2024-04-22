@@ -16,8 +16,10 @@ else:
 x = 3
 y = 7
 z = 9
-
+x=input(f"number of x:{""}")
+y=input(f"number of y:{""}")
+z=input(f"number of z:{""}")
 if x < y > z:
-    print("the middle number is ", y)
+    print("the middle number is y")
 else:
-    print("the middle number is not",y)
+    print("the middle number is not y")
